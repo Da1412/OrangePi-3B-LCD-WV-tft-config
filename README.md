@@ -29,9 +29,12 @@ A). STEP 1
  ``` sudo apt-get install xinput-calibrator ``` <br>
  ``` xinput_calibrator ``` <br>
  ----------------------------------------------------------------------------------------------------
- And just follow the instruction on the screen.
+ And just follow the instruction on the screen. <br>
+ IMPORTANT: do not change the Matchproduct "ads7846" line in /etc/X11/xorg.conf.d/99-calibration.conf <br>
  ----------------------------------------------------------------------------------------------------
 
+ Touchscreen should be working by now. but if for some reasons the touchscreen is still not working, you can try using the following step.
+ 
  B.) STEP 2
  ================================================
  
